@@ -1,10 +1,11 @@
 import React from 'react'
-import { Banner, About } from '../components'
+import { Banner, About, ProductsPreview } from '../components'
 
 const Home = () => {
   return (
     <>
       <Banner/>
+      <ProductsPreview/>
       <About/>
     </>
   )
